@@ -1,0 +1,125 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.36.0.0
+Copyright (C) 2021 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: poya tOpak, ebmtech, LIC=ATTQ1-CSVI9-HLTCL-0SUXZ-AXNRN-K0UAE
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.36.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.16
+Assembler:       Armasm.exe V6.16
+Linker/Locator:  ArmLink.exe V6.16
+Library Manager: ArmAr.exe V6.16
+Hex Converter:   FromElf.exe V6.16
+CPU DLL:         SARMCM3.DLL V5.36.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      Segger\JL2CM3.dll V2.99.40.0
+Dialog DLL:      TCM.DLL V1.53.0.0
+ 
+<h2>Project:</h2>
+C:\Users\tOpak\Documents\mcu\led_blink\led.uvprojx
+Project File Date:  07/05/2022
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.16', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
+Build target 'Target 1'
+main.c(2): warning: In file included from...
+C:/Users/tOpak/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/RTOS/RTX/INC\cmsis_os.h(73): warning: '__NO_RETURN' macro redefined [-Wmacro-redefined]
+#define __NO_RETURN __attribute__((noreturn))
+        ^
+C:/Users/tOpak/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include/cmsis_armclang.h(46): note: previous definition is here
+  #define __NO_RETURN                            __attribute__((__noreturn__))
+          ^
+main.c(5): warning: unused parameter 'args' [-Wunused-parameter]
+void ledapp(void *args)
+                  ^
+main.c(5): warning: no previous prototype for function 'ledapp' [-Wmissing-prototypes]
+void ledapp(void *args)
+     ^
+main.c(5): note: declare 'static' if the function is not intended to be used outside of this translation unit
+void ledapp(void *args)
+^
+static 
+main.c(6): warning: function 'ledapp' could be declared with attribute 'noreturn' [-Wmissing-noreturn]
+{
+^
+main.c(15): warning: incompatible function pointer types initializing 'os_pthread' (aka 'void (*)(const void *)') with an expression of type 'void (void *)' [-Wincompatible-function-pointer-types]
+osThreadDef(ledapp,osPriorityNormal,3,0);
+^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Users/tOpak/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/RTOS/RTX/INC\cmsis_os.h(278): note: expanded from macro 'osThreadDef'
+{ (name), (priority), (instances), (stacksz)  }
+  ^~~~~~
+main.c(15): warning: no previous extern declaration for non-static variable 'os_thread_def_ledapp' [-Wmissing-variable-declarations]
+C:/Users/tOpak/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/RTOS/RTX/INC\cmsis_os.h(277): note: expanded from macro 'osThreadDef'
+const osThreadDef_t os_thread_def_##name = \
+                    ^
+<scratch space>(2): note: expanded from here
+os_thread_def_ledapp
+^
+main.c(15): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+C:/Users/tOpak/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/RTOS/RTX/INC\cmsis_os.h(277): note: expanded from macro 'osThreadDef'
+const osThreadDef_t os_thread_def_##name = \
+      ^
+6 warnings generated.
+compiling main.c...
+linking...
+Program Size: Code=5900 RO-data=336 RW-data=44 ZI-data=3196  
+".\Objects\led.axf" - 0 Error(s), 6 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.8.0.pack
+                ARM.CMSIS.5.8.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: RTOS Version: 1.0.0
+   * Component: CORE Version: 5.5.0
+   * Component: Keil RTX Version: 4.82.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.LPC1700_DFP.2.7.0.pack
+                Keil.LPC1700_DFP.2.7.0
+                NXP LPC1700 Series Device Support, Drivers and Examples for MCB1700 and LPC1788-32
+   * Component: Startup Version: 1.0.0
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\Device\LPC1768
+  .\RTE\_Target_1
+  C:\Users\tOpak\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include
+  C:\Users\tOpak\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\RTOS\RTX\INC
+  C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ::CMSIS:RTOS:1.0.0 (API)
+
+   * Component: ARM::CMSIS:CORE:5.5.0
+
+   * Component: ARM::CMSIS:RTOS:Keil RTX:4.82.0
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\Thread.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\MemPool.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\main.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\MsgQueue.c
+      Include file:  CMSIS\RTOS\RTX\UserCodeTemplates\osObjects.h
+      Include file:  CMSIS\RTOS\RTX\INC\cmsis_os.h
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\MailQueue.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\Mutex.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\Semaphore.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\Timer.c
+      Source file:   CMSIS\RTOS\RTX\Templates\RTX_Conf_CM.c
+      Source file:   CMSIS\RTOS\RTX\SRC\ARM\SVC_Table.s
+      Library file:  CMSIS\RTOS\RTX\LIB\ARM\RTX_CM3.lib
+
+   * Component: Keil::Device:Startup:1.0.0
+      Include file:  Device\Include\LPC17xx.h
+      Source file:   Device\Source\ARM\startup_LPC17xx.s
+      Source file:   Device\Source\system_LPC17xx.c
+      Include file:  RTE_Driver\Config\RTE_Device.h
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
