@@ -1,0 +1,4 @@
+this functinos designed for creating menu in fastest time and so simple and efficent
+this functino need about 1024 kb os  stack
+and so needed to the emwin and with changing source can excuted on every model of lcd
+good luck boy 
