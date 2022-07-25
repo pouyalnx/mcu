@@ -1,0 +1,99 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.36.0.0
+Copyright (C) 2021 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: poya tOpak, ebmtech, LIC=ATTQ1-CSVI9-HLTCL-0SUXZ-AXNRN-K0UAE
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.36.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.16
+Assembler:       Armasm.exe V6.16
+Linker/Locator:  ArmLink.exe V6.16
+Library Manager: ArmAr.exe V6.16
+Hex Converter:   FromElf.exe V6.16
+CPU DLL:         SARMCM3.DLL V5.36.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      UL2CM3.DLL V1.164.0.0
+Dialog DLL:      TCM.DLL V1.53.0.0
+ 
+<h2>Project:</h2>
+C:\Users\tOpak\Documents\mcu\mcu_simulate\prg.uvprojx
+Project File Date:  07/13/2022
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.16', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
+Build target 'Target 1'
+main.c(5): warning: format specifies type 'int' but the argument has type 'unsigned int *' [-Wformat]
+        printf("in func val %d\n",val);
+                            ~~    ^~~
+main.c(7): warning: format specifies type 'int' but the argument has type 'unsigned int **' [-Wformat]
+        printf("in func addr %d\n",&val);       
+                             ~~    ^~~~
+main.c(4): warning: no previous prototype for function 'app' [-Wmissing-prototypes]
+void app(unsigned int *val){
+     ^
+main.c(4): note: declare 'static' if the function is not intended to be used outside of this translation unit
+void app(unsigned int *val){
+^
+static 
+main.c(12): warning: format specifies type 'int' but the argument has type 'unsigned int **' [-Wformat]
+        printf("vs in func val %d\n",val);
+                               ~~    ^~~
+main.c(13): warning: format specifies type 'int' but the argument has type 'unsigned int *' [-Wformat]
+        printf("vs in func ptr %d\n",*val);
+                               ~~    ^~~~
+main.c(14): warning: format specifies type 'int' but the argument has type 'unsigned int ***' [-Wformat]
+        printf("vs in func addr %d\n",&val);    
+                                ~~    ^~~~
+main.c(11): warning: no previous prototype for function 'app1' [-Wmissing-prototypes]
+void app1(unsigned int *val[]){
+     ^
+main.c(11): note: declare 'static' if the function is not intended to be used outside of this translation unit
+void app1(unsigned int *val[]){
+^
+static 
+7 warnings generated.
+compiling main.c...
+linking...
+Program Size: Code=3814 RO-data=1070 RW-data=16 ZI-data=8544  
+".\Objects\prg.axf" - 0 Error(s), 7 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.8.0.pack
+                ARM.CMSIS.5.8.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.5.0
+   * Component: Startup Version: 1.2.2
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.ARM_Compiler.1.6.3.pack
+                Keil.ARM_Compiler.1.6.3
+                Keil ARM Compiler extensions for ARM Compiler 5 and ARM Compiler 6
+   * Component: STDOUT Variant: ITM Version: 1.2.0
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Target_1
+  C:\Users\tOpak\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include
+  C:\Users\tOpak\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\Device\ARM\ARMCM3\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.5.0
+
+   * Component: ARM::Device:Startup:1.2.2
+      Source file:   Device\ARM\ARMCM3\Source\ARM\startup_ARMCM3.s
+      Source file:   Device\ARM\ARMCM3\Source\system_ARMCM3.c
+      Include file:  Device\ARM\ARMCM3\Include\ARMCM3.h
+
+   * Component: Keil.ARM Compiler::Compiler:I/O:STDOUT:ITM:1.2.0
+      Source file:   Source\retarget_io.c
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
