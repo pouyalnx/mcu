@@ -1,0 +1,152 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.25.2.0
+Copyright (C) 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: pouya nbie, nbie, LIC=Y2BQD-882IQ-NRVXL-0NANS-C1LVP-9APZP
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.25.2.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.25.2.0
+Dialog DLL:      DCM.DLL V1.17.1.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.1.0
+Dialog DLL:      TCM.DLL V1.35.1.0
+ 
+<h2>Project:</h2>
+E:\cmsis projects\stm32f103 oled ssd1306\test.uvprojx
+Project File Date:  02/15/2019
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Target 1'
+compiling ADC_MCBSTM32E.c...
+linking...
+Program Size: Code=18720 RO-data=1084 RW-data=112 ZI-data=5488  
+".\Objects\test.axf" - 0 Error(s), 0 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.3.0.pack
+                ARM.CMSIS.5.3.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: I2C Version: 2.3.0
+   * Component: RTOS Version: 1.0.0
+   * Component: CORE Version: 5.1.1
+   * Component: Keil RTX Version: 4.81.1
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.ARM_Compiler.1.4.0.pack
+                Keil.ARM_Compiler.1.4.0
+                Keil ARM Compiler extensions for ARM Compiler 5 and ARM Compiler 6
+   * Component: STDOUT Variant: User Version: 1.4.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.MDK-Middleware.7.6.0.pack
+                Keil.MDK-Middleware.7.6.0
+                Middleware for Keil MDK-Professional and MDK-Plus
+   * Component: A/D Converter Version: 1.0.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.3.0.pack
+                Keil.STM32F1xx_DFP.2.3.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+   * Component: A/D Converter Version: 2.0.0
+   * Component: I2C Version: 2.1
+   * Component: DMA Version: 1.2
+   * Component: GPIO Version: 1.3
+   * Component: Startup Version: 1.0.0
+   * Component: Framework Version: 3.5.1
+   * Component: GPIO Version: 3.5.0
+   * Component: RCC Version: 3.5.0
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\Device\STM32F103C8
+  .\RTE\_Target_1
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Driver\Include
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\RTOS\RTX\INC
+  C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.6.0\Board
+  C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include
+  C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc
+  C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\RTE_Driver
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ::Board Support:A/D Converter:1.0.0 (API)
+      Include file:  Board\Board_ADC.h
+
+   * Component: ::CMSIS Driver:I2C:2.3.0 (API)
+      Include file:  CMSIS\Driver\Include\Driver_I2C.h
+
+   * Component: ::CMSIS:RTOS:1.0.0 (API)
+
+   * Component: ARM::CMSIS:CORE:5.1.1
+
+   * Component: ARM::CMSIS:RTOS:Keil RTX:4.81.1
+      Library file:  CMSIS\RTOS\RTX\LIB\ARM\RTX_CM3.lib
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\MemPool.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\main.c
+      Source file:   CMSIS\RTOS\RTX\Templates\RTX_Conf_CM.c
+      Include file:  CMSIS\RTOS\RTX\UserCodeTemplates\osObjects.h
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\MailQueue.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\Semaphore.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\Thread.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\Timer.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\MsgQueue.c
+      Source file:   CMSIS\RTOS\RTX\SRC\ARM\SVC_Table.s
+      Include file:  CMSIS\RTOS\RTX\INC\cmsis_os.h
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\Mutex.c
+
+   * Component: Keil.ARM Compiler::Compiler:I/O:STDOUT:User:1.4.0
+      Source file:   Template\stdout_USART.c
+      Source file:   Source\retarget_io.c
+      Source file:   Template\stdout_user.c
+      Source file:   Template\stdout_display.c
+
+   * Component: Keil.MCBSTM32E::Board Support:A/D Converter:2.0.0
+      Source file:   Boards\Keil\MCBSTM32E\Common\ADC_MCBSTM32E.c
+
+   * Component: Keil::CMSIS Driver:I2C:2.1
+      Source file:   RTE_Driver\I2C_STM32F10x.c
+
+   * Component: Keil::Device:DMA:1.2
+      Source file:   RTE_Driver\DMA_STM32F10x.c
+      Include file:  RTE_Driver\DMA_STM32F10x.h
+
+   * Component: Keil::Device:GPIO:1.3
+      Source file:   RTE_Driver\GPIO_STM32F10x.c
+      Include file:  RTE_Driver\GPIO_STM32F10x.h
+
+   * Component: Keil::Device:Startup:1.0.0
+      Source file:   Device\Source\ARM\STM32F1xx_OPT.s
+      Source file:   Device\Source\system_stm32f10x.c
+      Source file:   Device\Source\ARM\startup_stm32f10x_md.s
+      Include file:  RTE_Driver\Config\RTE_Device.h
+
+   * Component: Keil::Device:StdPeriph Drivers:Framework:3.5.1
+      Include file:  Device\StdPeriph_Driver\templates\stm32f10x_it.h
+      Include file:  Device\StdPeriph_Driver\inc\misc.h
+      Source file:   Device\StdPeriph_Driver\templates\stm32f10x_conf.h
+      Source file:   Device\StdPeriph_Driver\src\misc.c
+      Source file:   Device\StdPeriph_Driver\templates\stm32f10x_it.c
+
+   * Component: Keil::Device:StdPeriph Drivers:GPIO:3.5.0
+      Include file:  Device\StdPeriph_Driver\inc\stm32f10x_gpio.h
+      Source file:   Device\StdPeriph_Driver\src\stm32f10x_gpio.c
+
+   * Component: Keil::Device:StdPeriph Drivers:RCC:3.5.0
+      Include file:  Device\StdPeriph_Driver\inc\stm32f10x_rcc.h
+      Source file:   Device\StdPeriph_Driver\src\stm32f10x_rcc.c
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
