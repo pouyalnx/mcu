@@ -1,0 +1,160 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.36.0.0
+Copyright (C) 2021 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: poya tOpak, ebmtech, LIC=P6F5U-S0WKI-RF9IZ-JA99L-6DJAT-XFK3S
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.36.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.16
+Assembler:       Armasm.exe V6.16
+Linker/Locator:  ArmLink.exe V6.16
+Library Manager: ArmAr.exe V6.16
+Hex Converter:   FromElf.exe V6.16
+CPU DLL:         SARMCM3.DLL V5.36.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      Segger\JL2CM3.dll V2.99.40.0
+Dialog DLL:      TCM.DLL V1.53.0.0
+ 
+<h2>Project:</h2>
+C:\Users\tOpak\Documents\mcu\lnx_embroidery_v0000\prj.uvprojx
+Project File Date:  07/26/2022
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.16', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
+Build target 'Target 1'
+tlcode.c(3): warning: string literal of length 29731 exceeds maximum length 4095 that ISO C99 compilers are required to support [-Woverlength-strings]
+const char gcode_buffer[]="M5 S0 \n"
+                          ^~~~~~~~~~
+tlcode.c(3): warning: no previous extern declaration for non-static variable 'gcode_buffer' [-Wmissing-variable-declarations]
+const char gcode_buffer[]="M5 S0 \n"
+           ^
+tlcode.c(3): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+const char gcode_buffer[]="M5 S0 \n"
+      ^
+2 warnings generated.
+compiling tlcode.c...
+linking...
+Program Size: Code=37380 RO-data=31060 RW-data=164 ZI-data=23712  
+".\Objects\prj.axf" - 0 Error(s), 2 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.8.0.pack
+                ARM.CMSIS.5.8.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: USB Device Version: 2.3.0
+   * Component: RTOS Version: 1.0.0
+   * Component: CORE Version: 5.5.0
+   * Component: Keil RTX Version: 4.82.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.ARM_Compiler.1.6.3.pack
+                Keil.ARM_Compiler.1.6.3
+                Keil ARM Compiler extensions for ARM Compiler 5 and ARM Compiler 6
+   * Component: STDIN Variant: User Version: 1.2.0
+   * Component: STDOUT Variant: User Version: 1.2.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.LPC1700_DFP.2.7.0.pack
+                Keil.LPC1700_DFP.2.7.0
+                NXP LPC1700 Series Device Support, Drivers and Examples for MCB1700 and LPC1788-32
+   * Component: USB Device Version: 2.14.0
+   * Component: PIN Version: 1.0.0
+   * Component: Startup Version: 1.0.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.MDK-Middleware.7.13.0.pack
+                Keil.MDK-Middleware.7.13.0
+                Middleware for Keil MDK-Professional and MDK-Plus
+   * Component: CORE Variant: Release Version: 6.15.0
+   * Component: Device Version: 6.15.0
+   * Component: CDC Version: 6.15.0
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\Device\LPC1768
+  .\RTE\USB
+  .\RTE\_Target_1
+  C:\Users\tOpak\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include
+  C:\Users\tOpak\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Driver\Include
+  C:\Users\tOpak\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\RTOS\RTX\INC
+  C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.0\Device\Include
+  C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.0\RTE_Driver
+  C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.13.0\USB\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ::CMSIS Driver:USB Device:2.3.0 (API)
+      Include file:  CMSIS\Driver\Include\Driver_USBD.h
+
+   * Component: ::CMSIS:RTOS:1.0.0 (API)
+
+   * Component: ARM::CMSIS:CORE:5.5.0
+
+   * Component: ARM::CMSIS:RTOS:Keil RTX:4.82.0
+      Include file:  CMSIS\RTOS\RTX\INC\cmsis_os.h
+      Include file:  CMSIS\RTOS\RTX\UserCodeTemplates\osObjects.h
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\MsgQueue.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\Semaphore.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\Thread.c
+      Library file:  CMSIS\RTOS\RTX\LIB\ARM\RTX_CM3.lib
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\main.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\MailQueue.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\Timer.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\MemPool.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\Mutex.c
+      Source file:   CMSIS\RTOS\RTX\Templates\RTX_Conf_CM.c
+      Source file:   CMSIS\RTOS\RTX\SRC\ARM\SVC_Table.s
+
+   * Component: Keil.ARM Compiler::Compiler:I/O:STDIN:User:1.2.0
+      Source file:   Source\retarget_io.c
+      Source file:   Template\stdin_USART.c
+      Source file:   Template\stdin_keyboard.c
+      Source file:   Template\stdin_user.c
+
+   * Component: Keil.ARM Compiler::Compiler:I/O:STDOUT:User:1.2.0
+      Source file:   Template\stdout_display.c
+      Source file:   Template\stdout_USART.c
+      Source file:   Source\retarget_io.c
+      Source file:   Template\stdout_user.c
+
+   * Component: Keil.MDK-Pro::USB:CORE:Release:6.15.0
+      Library file:  USB\Lib\ARM\USB_CM3_L.lib
+      Include file:  USB\Include\rl_usb.h
+
+   * Component: Keil.MDK-Pro::USB:Device:6.15.0
+      Source file:   USB\Config\USBD_Config.c
+      Source file:   USB\Template\USBD_User_Device.c
+      Source file:   USB\Template\USBD_User_Device_SerNum.c
+
+   * Component: Keil.MDK-Pro::USB:Device:CDC:6.15.0
+      Include file:  USB\Config\USBD_Config_CDC.h
+      Source file:   USB\Template\USBD_User_CDC_NCM.c
+      Source file:   USB\Template\USBD_User_CDC_ACM.c
+      Source file:   USB\Template\USBD_User_CDC_ACM_RNDIS_VETH.c
+      Source file:   USB\Template\USBD_User_CDC_ACM_UART.c
+      Source file:   USB\Template\USBD_User_CDC_NCM_ETH.c
+      Source file:   USB\Template\USBD_User_CDC_ACM_RNDIS_ETH.c
+
+   * Component: Keil::CMSIS Driver:USB Device:2.14.0
+      Source file:   RTE_Driver\OTG_LPC17xx.c
+      Source file:   RTE_Driver\USBD_LPC17xx.c
+
+   * Component: Keil::Device:PIN:1.0.0
+      Source file:   RTE_Driver\PIN_LPC17xx.c
+      Include file:  RTE_Driver\PIN_LPC17xx.h
+
+   * Component: Keil::Device:Startup:1.0.0
+      Include file:  Device\Include\LPC17xx.h
+      Source file:   Device\Source\ARM\startup_LPC17xx.s
+      Include file:  RTE_Driver\Config\RTE_Device.h
+      Source file:   Device\Source\system_LPC17xx.c
+Build Time Elapsed:  00:00:14
+</pre>
+</body>
+</html>
