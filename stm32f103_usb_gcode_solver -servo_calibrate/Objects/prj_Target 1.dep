@@ -1,0 +1,246 @@
+Dependencies for Project 'prj', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 6160000::V6.16::ARMCLANG
+F (.\main.c)(0x632C1A2A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__RTX -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/Device/STM32F103C8-I./RTE/USB-I./RTE/_Target_1-IC:/Users/tOpak/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/tOpak/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Driver/Include-IC:/Users/tOpak/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/RTOS/RTX/INC-IC:/Users/tOpak/AppData/Local/Arm/Packs/Keil/MDK-Middleware/7.13.0/USB/Include-IC:/Users/tOpak/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-IC:/Users/tOpak/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/StdPeriph_Driver/inc-IC:/Users/tOpak/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/RTE_Driver-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -D__packed=__attribute__((__packed__))-o ./objects/main.o -MD)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x626F7C16)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60353908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x60353908)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.13.0\USB\Include\rl_usb.h)(0x609A5E34)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x60353902)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.13.0\USB\Include\usb_os.h)(0x5D14513A)
+I (RTE\_Target_1\RTE_Components.h)(0x632A22E3)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.13.0\USB\Include\usb_compiler.h)(0x5DD64CF8)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F7C16)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F7C16)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.13.0\USB\Include\usb_def.h)(0x5D14513A)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.13.0\USB\Include\usb_cdc.h)(0x5D14513A)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.13.0\USB\Include\usb_cdc_acm_rndis.h)(0x5ED892B8)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.13.0\USB\Include\usb_hid.h)(0x5E1D79DC)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.13.0\USB\Include\usb_msc.h)(0x5D14513A)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.13.0\USB\Include\usb_ms.h)(0x5D14513A)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\RTE_Driver\GPIO_STM32F10x.h)(0x5FC08122)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include\stm32f10x.h)(0x61ADAA96)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x626F7C16)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F7C16)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include\system_stm32f10x.h)(0x61ADAA96)
+I (RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x61ADAA96)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x61ADAA96)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x61ADAA96)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x61ADAA96)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\misc.h)(0x61ADAA96)
+I (a4988.h)(0x632B6A02)
+I (gcode.h)(0x632B2A88)
+I (servo.h)(0x632B2AB7)
+F (.\a4988.c)(0x632B2AB7)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__RTX -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/Device/STM32F103C8-I./RTE/USB-I./RTE/_Target_1-IC:/Users/tOpak/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/tOpak/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Driver/Include-IC:/Users/tOpak/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/RTOS/RTX/INC-IC:/Users/tOpak/AppData/Local/Arm/Packs/Keil/MDK-Middleware/7.13.0/USB/Include-IC:/Users/tOpak/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-IC:/Users/tOpak/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/StdPeriph_Driver/inc-IC:/Users/tOpak/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/RTE_Driver-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -D__packed=__attribute__((__packed__))-o ./objects/a4988.o -MD)
+I (a4988.h)(0x632B6A02)
+I (gcode.h)(0x632B2A88)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include\stm32f10x.h)(0x61ADAA96)
+I (RTE\_Target_1\RTE_Components.h)(0x632A22E3)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x626F7C16)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60353908)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F7C16)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F7C16)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F7C16)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include\system_stm32f10x.h)(0x61ADAA96)
+I (RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x61ADAA96)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x61ADAA96)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x61ADAA96)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x61ADAA96)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\misc.h)(0x61ADAA96)
+I (RTE\Device\STM32F103C8\RTE_Device.h)(0x6329DC4F)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x60353902)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x626F7C16)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x60353908)
+F (.\USBD_User_CDC_ACM_0.c)(0x632A2C0C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__RTX -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/Device/STM32F103C8-I./RTE/USB-I./RTE/_Target_1-IC:/Users/tOpak/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/tOpak/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Driver/Include-IC:/Users/tOpak/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/RTOS/RTX/INC-IC:/Users/tOpak/AppData/Local/Arm/Packs/Keil/MDK-Middleware/7.13.0/USB/Include-IC:/Users/tOpak/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-IC:/Users/tOpak/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/StdPeriph_Driver/inc-IC:/Users/tOpak/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/RTE_Driver-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -D__packed=__attribute__((__packed__))-o ./objects/usbd_user_cdc_acm_0.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60353908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x60353902)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.13.0\USB\Include\rl_usb.h)(0x609A5E34)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.13.0\USB\Include\usb_os.h)(0x5D14513A)
+I (RTE\_Target_1\RTE_Components.h)(0x632A22E3)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x626F7C16)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x60353908)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.13.0\USB\Include\usb_compiler.h)(0x5DD64CF8)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F7C16)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F7C16)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.13.0\USB\Include\usb_def.h)(0x5D14513A)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.13.0\USB\Include\usb_cdc.h)(0x5D14513A)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.13.0\USB\Include\usb_cdc_acm_rndis.h)(0x5ED892B8)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.13.0\USB\Include\usb_hid.h)(0x5E1D79DC)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.13.0\USB\Include\usb_msc.h)(0x5D14513A)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.13.0\USB\Include\usb_ms.h)(0x5D14513A)
+F (.\servo.c)(0x632B1B87)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__RTX -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/Device/STM32F103C8-I./RTE/USB-I./RTE/_Target_1-IC:/Users/tOpak/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/tOpak/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Driver/Include-IC:/Users/tOpak/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/RTOS/RTX/INC-IC:/Users/tOpak/AppData/Local/Arm/Packs/Keil/MDK-Middleware/7.13.0/USB/Include-IC:/Users/tOpak/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-IC:/Users/tOpak/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/StdPeriph_Driver/inc-IC:/Users/tOpak/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/RTE_Driver-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -D__packed=__attribute__((__packed__))-o ./objects/servo.o -MD)
+I (servo.h)(0x632B2AB7)
+I (gcode.h)(0x632B2A88)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include\stm32f10x.h)(0x61ADAA96)
+I (RTE\_Target_1\RTE_Components.h)(0x632A22E3)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x626F7C16)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60353908)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F7C16)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F7C16)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F7C16)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include\system_stm32f10x.h)(0x61ADAA96)
+I (RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x61ADAA96)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x61ADAA96)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x61ADAA96)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x61ADAA96)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\misc.h)(0x61ADAA96)
+I (RTE\Device\STM32F103C8\RTE_Device.h)(0x6329DC4F)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x626F7C16)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x60353908)
+F (.\gcode.c)(0x632B2A9E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__RTX -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/Device/STM32F103C8-I./RTE/USB-I./RTE/_Target_1-IC:/Users/tOpak/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/tOpak/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Driver/Include-IC:/Users/tOpak/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/RTOS/RTX/INC-IC:/Users/tOpak/AppData/Local/Arm/Packs/Keil/MDK-Middleware/7.13.0/USB/Include-IC:/Users/tOpak/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-IC:/Users/tOpak/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/StdPeriph_Driver/inc-IC:/Users/tOpak/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/RTE_Driver-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -D__packed=__attribute__((__packed__))-o ./objects/gcode.o -MD)
+I (gcode.h)(0x632B2A88)
+F (.\gcode.h)(0x632B2A88)()
+F (C:\Users\tOpak\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\RTOS\RTX\LIB\ARM\RTX_CM3.lib)(0x626F7C16)()
+F (RTE\CMSIS\RTX_Conf_CM.c)(0x6329DC1B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__RTX -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/Device/STM32F103C8-I./RTE/USB-I./RTE/_Target_1-IC:/Users/tOpak/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/tOpak/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Driver/Include-IC:/Users/tOpak/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/RTOS/RTX/INC-IC:/Users/tOpak/AppData/Local/Arm/Packs/Keil/MDK-Middleware/7.13.0/USB/Include-IC:/Users/tOpak/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-IC:/Users/tOpak/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/StdPeriph_Driver/inc-IC:/Users/tOpak/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/RTE_Driver-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -D__packed=__attribute__((__packed__))-o ./objects/rtx_conf_cm.o -MD)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x626F7C16)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60353908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x60353908)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\RTOS\RTX\INC\RTX_CM_lib.h)(0x626F7C16)
+F (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\RTE_Driver\USBD_STM32F10x.c)(0x5FC08122)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__RTX -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/Device/STM32F103C8-I./RTE/USB-I./RTE/_Target_1-IC:/Users/tOpak/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/tOpak/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Driver/Include-IC:/Users/tOpak/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/RTOS/RTX/INC-IC:/Users/tOpak/AppData/Local/Arm/Packs/Keil/MDK-Middleware/7.13.0/USB/Include-IC:/Users/tOpak/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-IC:/Users/tOpak/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/StdPeriph_Driver/inc-IC:/Users/tOpak/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/RTE_Driver-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -D__packed=__attribute__((__packed__))-o ./objects/usbd_stm32f10x.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60353908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x60353908)
+I (RTE\_Target_1\RTE_Components.h)(0x632A22E3)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x626F7C16)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x60353908)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include\stm32f10x.h)(0x61ADAA96)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x626F7C16)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F7C16)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F7C16)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F7C16)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include\system_stm32f10x.h)(0x61ADAA96)
+I (RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x61ADAA96)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x61ADAA96)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x61ADAA96)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x61ADAA96)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\misc.h)(0x61ADAA96)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\RTE_Driver\GPIO_STM32F10x.h)(0x5FC08122)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x60353902)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\RTE_Driver\USBD_STM32F10x.h)(0x5FC08122)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Driver\Include\Driver_USBD.h)(0x626F7C16)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Driver\Include\Driver_USB.h)(0x626F7C16)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Driver\Include\Driver_Common.h)(0x626F7C16)
+I (RTE\Device\STM32F103C8\RTE_Device.h)(0x6329DC4F)
+F (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\src\misc.c)(0x61ADAA96)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__RTX -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/Device/STM32F103C8-I./RTE/USB-I./RTE/_Target_1-IC:/Users/tOpak/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/tOpak/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Driver/Include-IC:/Users/tOpak/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/RTOS/RTX/INC-IC:/Users/tOpak/AppData/Local/Arm/Packs/Keil/MDK-Middleware/7.13.0/USB/Include-IC:/Users/tOpak/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-IC:/Users/tOpak/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/StdPeriph_Driver/inc-IC:/Users/tOpak/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/RTE_Driver-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -D__packed=__attribute__((__packed__))-o ./objects/misc.o -MD)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\misc.h)(0x61ADAA96)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include\stm32f10x.h)(0x61ADAA96)
+I (RTE\_Target_1\RTE_Components.h)(0x632A22E3)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x626F7C16)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60353908)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F7C16)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F7C16)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F7C16)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include\system_stm32f10x.h)(0x61ADAA96)
+I (RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x61ADAA96)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x61ADAA96)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x61ADAA96)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x61ADAA96)
+F (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\src\stm32f10x_gpio.c)(0x61ADAA96)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__RTX -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/Device/STM32F103C8-I./RTE/USB-I./RTE/_Target_1-IC:/Users/tOpak/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/tOpak/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Driver/Include-IC:/Users/tOpak/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/RTOS/RTX/INC-IC:/Users/tOpak/AppData/Local/Arm/Packs/Keil/MDK-Middleware/7.13.0/USB/Include-IC:/Users/tOpak/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-IC:/Users/tOpak/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/StdPeriph_Driver/inc-IC:/Users/tOpak/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/RTE_Driver-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -D__packed=__attribute__((__packed__))-o ./objects/stm32f10x_gpio.o -MD)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x61ADAA96)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include\stm32f10x.h)(0x61ADAA96)
+I (RTE\_Target_1\RTE_Components.h)(0x632A22E3)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x626F7C16)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60353908)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F7C16)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F7C16)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F7C16)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include\system_stm32f10x.h)(0x61ADAA96)
+I (RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x61ADAA96)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x61ADAA96)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x61ADAA96)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\misc.h)(0x61ADAA96)
+F (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\src\stm32f10x_rcc.c)(0x61ADAA96)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__RTX -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/Device/STM32F103C8-I./RTE/USB-I./RTE/_Target_1-IC:/Users/tOpak/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/tOpak/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Driver/Include-IC:/Users/tOpak/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/RTOS/RTX/INC-IC:/Users/tOpak/AppData/Local/Arm/Packs/Keil/MDK-Middleware/7.13.0/USB/Include-IC:/Users/tOpak/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-IC:/Users/tOpak/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/StdPeriph_Driver/inc-IC:/Users/tOpak/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/RTE_Driver-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -D__packed=__attribute__((__packed__))-o ./objects/stm32f10x_rcc.o -MD)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x61ADAA96)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include\stm32f10x.h)(0x61ADAA96)
+I (RTE\_Target_1\RTE_Components.h)(0x632A22E3)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x626F7C16)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60353908)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F7C16)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F7C16)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F7C16)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include\system_stm32f10x.h)(0x61ADAA96)
+I (RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x61ADAA96)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x61ADAA96)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x61ADAA96)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\misc.h)(0x61ADAA96)
+F (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\src\stm32f10x_tim.c)(0x61ADAA96)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__RTX -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/Device/STM32F103C8-I./RTE/USB-I./RTE/_Target_1-IC:/Users/tOpak/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/tOpak/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Driver/Include-IC:/Users/tOpak/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/RTOS/RTX/INC-IC:/Users/tOpak/AppData/Local/Arm/Packs/Keil/MDK-Middleware/7.13.0/USB/Include-IC:/Users/tOpak/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-IC:/Users/tOpak/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/StdPeriph_Driver/inc-IC:/Users/tOpak/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/RTE_Driver-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -D__packed=__attribute__((__packed__))-o ./objects/stm32f10x_tim.o -MD)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x61ADAA96)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include\stm32f10x.h)(0x61ADAA96)
+I (RTE\_Target_1\RTE_Components.h)(0x632A22E3)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x626F7C16)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60353908)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F7C16)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F7C16)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F7C16)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include\system_stm32f10x.h)(0x61ADAA96)
+I (RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x61ADAA96)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x61ADAA96)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x61ADAA96)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\misc.h)(0x61ADAA96)
+F (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\RTE_Driver\GPIO_STM32F10x.c)(0x5FC08122)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__RTX -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/Device/STM32F103C8-I./RTE/USB-I./RTE/_Target_1-IC:/Users/tOpak/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/tOpak/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Driver/Include-IC:/Users/tOpak/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/RTOS/RTX/INC-IC:/Users/tOpak/AppData/Local/Arm/Packs/Keil/MDK-Middleware/7.13.0/USB/Include-IC:/Users/tOpak/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-IC:/Users/tOpak/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/StdPeriph_Driver/inc-IC:/Users/tOpak/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/RTE_Driver-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -D__packed=__attribute__((__packed__))-o ./objects/gpio_stm32f10x.o -MD)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\RTE_Driver\GPIO_STM32F10x.h)(0x5FC08122)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x60353902)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include\stm32f10x.h)(0x61ADAA96)
+I (RTE\_Target_1\RTE_Components.h)(0x632A22E3)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x626F7C16)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60353908)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F7C16)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F7C16)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F7C16)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include\system_stm32f10x.h)(0x61ADAA96)
+I (RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x61ADAA96)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x61ADAA96)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x61ADAA96)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x61ADAA96)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\misc.h)(0x61ADAA96)
+F (RTE\Device\STM32F103C8\RTE_Device.h)(0x6329DC4F)()
+F (RTE\Device\STM32F103C8\startup_stm32f10x_md.s)(0x61ADAA96)(--target=arm-arm-none-eabi -mcpu=cortex-m3 -masm=auto -c-gdwarf-4 -Wa,armasm,--pd,"__RTX SETA 1"-I./RTE/Device/STM32F103C8-I./RTE/USB-I./RTE/_Target_1-IC:/Users/tOpak/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/tOpak/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Driver/Include-IC:/Users/tOpak/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/RTOS/RTX/INC-IC:/Users/tOpak/AppData/Local/Arm/Packs/Keil/MDK-Middleware/7.13.0/USB/Include-IC:/Users/tOpak/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-IC:/Users/tOpak/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/StdPeriph_Driver/inc-IC:/Users/tOpak/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/RTE_Driver-Wa,armasm,--pd,"__UVISION_VERSION SETA 536" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"STM32F10X_MD SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup_stm32f10x_md.o)
+F (RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x61ADAA96)()
+F (RTE\Device\STM32F103C8\system_stm32f10x.c)(0x61ADAA96)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__RTX -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/Device/STM32F103C8-I./RTE/USB-I./RTE/_Target_1-IC:/Users/tOpak/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/tOpak/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Driver/Include-IC:/Users/tOpak/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/RTOS/RTX/INC-IC:/Users/tOpak/AppData/Local/Arm/Packs/Keil/MDK-Middleware/7.13.0/USB/Include-IC:/Users/tOpak/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-IC:/Users/tOpak/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/StdPeriph_Driver/inc-IC:/Users/tOpak/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/RTE_Driver-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -D__packed=__attribute__((__packed__))-o ./objects/system_stm32f10x.o -MD)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include\stm32f10x.h)(0x61ADAA96)
+I (RTE\_Target_1\RTE_Components.h)(0x632A22E3)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x626F7C16)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60353908)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F7C16)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F7C16)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F7C16)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include\system_stm32f10x.h)(0x61ADAA96)
+I (RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x61ADAA96)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x61ADAA96)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x61ADAA96)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x61ADAA96)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\misc.h)(0x61ADAA96)
+F (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.13.0\USB\Lib\ARM\USB_CM3_L.lib)(0x609E49D6)()
+F (RTE\USB\USBD_Config_0.c)(0x6329DA74)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__RTX -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/Device/STM32F103C8-I./RTE/USB-I./RTE/_Target_1-IC:/Users/tOpak/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/tOpak/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Driver/Include-IC:/Users/tOpak/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/RTOS/RTX/INC-IC:/Users/tOpak/AppData/Local/Arm/Packs/Keil/MDK-Middleware/7.13.0/USB/Include-IC:/Users/tOpak/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-IC:/Users/tOpak/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/StdPeriph_Driver/inc-IC:/Users/tOpak/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/RTE_Driver-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -D__packed=__attribute__((__packed__))-o ./objects/usbd_config_0.o -MD)
+I (RTE\_Target_1\RTE_Components.h)(0x632A22E3)
+I (RTE\USB\USBD_Config_CDC_0.h)(0x6329DA74)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.13.0\USB\Include\usbd_config.h)(0x5E14053E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60353908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x60353902)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x60353908)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.13.0\USB\Include\usb_def.h)(0x5D14513A)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.13.0\USB\Include\usb_compiler.h)(0x5DD64CF8)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F7C16)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F7C16)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.13.0\USB\Include\usb_adc.h)(0x5D14513A)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.13.0\USB\Include\usb_cdc.h)(0x5D14513A)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.13.0\USB\Include\usb_hid.h)(0x5E1D79DC)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.13.0\USB\Include\usb_msc.h)(0x5D14513A)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.13.0\USB\Include\rl_usb.h)(0x609A5E34)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.13.0\USB\Include\usb_os.h)(0x5D14513A)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x626F7C16)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x60353908)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.13.0\USB\Include\usb_cdc_acm_rndis.h)(0x5ED892B8)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.13.0\USB\Include\usb_ms.h)(0x5D14513A)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.13.0\USB\Include\rl_usbd_lib.h)(0x5D01D694)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Driver\Include\Driver_USBD.h)(0x626F7C16)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Driver\Include\Driver_USB.h)(0x626F7C16)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Driver\Include\Driver_Common.h)(0x626F7C16)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.13.0\USB\Include\usbd_compatibility.h)(0x5D14513A)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.13.0\USB\Include\usbd_config_def_0.h)(0x5D14513A)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.13.0\USB\Include\usbd_config_dev_0.c)(0x5D01D694)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.13.0\USB\Include\usbd_config_def_1.h)(0x5D14513A)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.13.0\USB\Include\usbd_config_def_2.h)(0x5D14513A)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.13.0\USB\Include\usbd_config_def_3.h)(0x5D14513A)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.13.0\USB\Include\usbd_cmsis_rtos1.c)(0x5DDCCC66)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.13.0\USB\Include\usbd_config_desc_macros.h)(0x5D14513A)
+I (C:\Users\tOpak\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.13.0\USB\Include\usbd_config_desc_0.c)(0x5D14513A)
+F (RTE\USB\USBD_Config_CDC_0.h)(0x6329DA74)()
